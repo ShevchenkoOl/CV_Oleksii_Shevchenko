@@ -1,0 +1,45 @@
+.general-info {
+    background-color: #1E2939;
+    width: 370px;
+    height: auto;
+}
+.info-title {
+    color:#ffffff;
+}
+
+.contact-icon {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    stroke: #ffffff;
+    fill: #ffffff;
+    transition: color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-icon:hover,
+.contact-icon:focus {
+    stroke: #2196F3;
+    fill: #2196F3
+}
+
+.contact-items {
+    color: #ffffff;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.contact-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    transition: color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
