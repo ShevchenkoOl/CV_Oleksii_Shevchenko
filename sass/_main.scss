@@ -6,9 +6,20 @@
     /*.change-lang {
       align-items: flex-end;
     }*/
+/*.headr{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction:row;
+  }*/
+
+.change-lang{
+  text-align: end;
+}
+
 .title{
   margin-bottom: 40px;
-  text-align: center;
+  text-align:center;
 }
 
 .title-name{
