@@ -1,3 +1,15 @@
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 body {
     width: 1200px;
     padding: 40px;
@@ -5,25 +17,36 @@ body {
     font-style: normal;
     margin-left: auto;
     margin-right: auto;
+    color: black;
 }
 
 .container {
+    margin: 40px;
     display: flex;
     flex-direction: row-reverse;
+    box-shadow: 10px 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 
 .about-me {
-    padding: 20px 30px 30px 80px;
-    box-shadow: 10px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 0px 30px 30px 80px;
 }
 
 h3 {
-font-weight: 700;
-font-size: 22px;
+font-weight: 600;
+font-size: 20px;
 line-height: 27px;
 }
 
+h3:not(:last-child):not(:first-child) {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
 .link {
     text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
 }

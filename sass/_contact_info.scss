@@ -1,8 +1,20 @@
 .general-info {
     background-color: #1E2939;
-    width: 370px;
+    width: 450px;
     height: auto;
+    padding: 40px;
 }
+.info-list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.foto {
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
 .info-title {
     color:#ffffff;
 }
@@ -27,19 +39,15 @@
     color: #ffffff;
     font-size: 12px;
     list-style-type: none;
+    margin-top: 10px;
 }
 
 .contact-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-
-    color: #FFFFFF;
     transition: color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #2196F3;
+.info-items {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 10px;
 }

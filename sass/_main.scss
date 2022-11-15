@@ -3,9 +3,39 @@
 
 
     /*background-color:tomato;*/
+.title{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.title-name{
+margin-bottom: 20px;
+}
+
 .main-title{
     color:black;
+}
+
+.main-text{
+  text-align: justify;
+}
+
+.text{
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+color: black;
 }
   .project-items{
     list-style-type: none;
   }
+.text-date{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color:#A8A8A8;
+  margin-bottom: 10px;
+}
+.allocate{
+  font-weight: 600;
+}
