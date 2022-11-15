@@ -1,3 +1,4 @@
+//import { langArr } from './lang';
 const select = document.querySelector('select');
 const allLang = ['en', 'cz', 'ua'];
 
@@ -28,7 +29,6 @@ function changeLanguage() {
         if (elem) {
             elem.innerHTML = langArr[key][hash];
         }
-
     }
 }
 
