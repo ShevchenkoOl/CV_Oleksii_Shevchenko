@@ -1,16 +1,3 @@
-/*.container {
-
-
-    /*background-color:tomato;*/
-/*.change-lang {
-  align-items: flex-end;
-}*/
-/*.headr{
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction:row;
-  }*/
 .change-lang {
   text-align: end;
 }
@@ -43,16 +30,45 @@
   list-style-type: none;
 }
 
+.project-items:last-child {
+  margin-top: 20px;
+}
+
 .text-date {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #A8A8A8;
+  color: #a8a8a8;
   margin-bottom: 10px;
 }
 
 .allocate {
   font-weight: 600;
+}
+
+.download {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  border: 2px solid rgb(255, 166, 0);
+  border-radius: 25px;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196F3;
+  background-color: transparent;
+  background-color: rgb(249, 218, 160);
 }
 
 .general-info {
